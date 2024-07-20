@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "txts"
 version = "0.1"
+dependencies = ["sounddevice", "numpy"]
 
 [project.urls]
 GitHub = "https://github.com/d33pster/txts"
